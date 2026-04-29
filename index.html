@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextSap — Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- PROGRESS BAR -->
+  <div id="progress-bar"></div>
+
+  <!-- PARTICLE BG -->
+  <canvas id="canvas-bg"></canvas>
+
+  <!-- SIDE NAV -->
+  <nav id="side-nav">
+    <div class="nav-dot active" data-section="collect" data-label="Collect"></div>
+    <div class="nav-dot" data-section="use"     data-label="Usage"></div>
+    <div class="nav-dot" data-section="sharing" data-label="Sharing"></div>
+    <div class="nav-dot" data-section="security" data-label="Security"></div>
+    <div class="nav-dot" data-section="rights"  data-label="Rights"></div>
+    <div class="nav-dot" data-section="children" data-label="Children"></div>
+    <div class="nav-dot" data-section="changes" data-label="Updates"></div>
+    <div class="nav-dot" data-section="contact" data-label="Contact"></div>
+  </nav>
+
+  <div class="wrapper">
+
+    <!-- ══ HEADER ══ -->
+    <header>
+      <a href="#" class="logo">
+        <div class="logo-mark">
+          <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 2L17 6V14L10 18L3 14V6L10 2Z" fill="rgba(255,255,255,0.15)"/>
+            <path d="M10 5.5L15 8.5V14.5L10 17.5L5 14.5V8.5L10 5.5Z" fill="white" fill-opacity="0.9"/>
+          </svg>
+        </div>
+        <span class="logo-name">NextSap</span>
+      </a>
+      <div class="header-right">
+        <span class="date-pill">Updated Mar 16, 2026</span>
+      </div>
+    </header>
+
+    <!-- ══ HERO ══ -->
+    <section class="hero">
+      <div class="hero-tag">
+        <span class="hero-tag-line"></span>
+        Privacy Policy
+      </div>
+      <h1>Your data,<br><em>protected.</em></h1>
+      <p class="hero-sub">
+        We built NextSap to be radically transparent. Here's exactly what we collect,
+        why we need it, and every right you have over it — in plain language.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" id="stat-days">0+</span>
+          <span class="stat-label">Days uptime / year</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="stat-enc">0%</span>
+          <span class="stat-label">Encrypted in transit</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" id="stat-del">0h</span>
+          <span class="stat-label">Deletion response time</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ TOC ══ -->
+    <div class="toc">
+      <p class="toc-title">Table of Contents</p>
+      <div class="toc-grid">
+        <a href="#collect"  class="toc-item"><span class="toc-num">01</span> Information We Collect</a>
+        <a href="#use"      class="toc-item"><span class="toc-num">02</span> How We Use It</a>
+        <a href="#sharing"  class="toc-item"><span class="toc-num">03</span> Data Sharing</a>
+        <a href="#security" class="toc-item"><span class="toc-num">04</span> Data Security</a>
+        <a href="#rights"   class="toc-item"><span class="toc-num">05</span> Your Rights</a>
+        <a href="#children" class="toc-item"><span class="toc-num">06</span> Children's Privacy</a>
+        <a href="#changes"  class="toc-item"><span class="toc-num">07</span> Policy Changes</a>
+        <a href="#contact"  class="toc-item"><span class="toc-num">08</span> Contact</a>
+      </div>
+    </div>
+
+    <!-- ══ 01 — COLLECT ══ -->
+    <div class="section" id="collect">
+      <div class="section-header">
+        <span class="section-num-big">01</span>
+        <div class="section-heading">
+          <span class="section-tag">Collection</span>
+          <h2>Information We Collect</h2>
+        </div>
+      </div>
+      <p>We gather only what's essential to power your experience — nothing more, nothing less.</p>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">👤</div>
+          <h3>Personal Info</h3>
+          <p>Name, email address, and contact details when you create your account with us.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📍</div>
+          <h3>Location Data</h3>
+          <p>Your approximate location only — to surface relevant products near you.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3>Device Info</h3>
+          <p>Device type, OS version, and identifiers required for compatibility and security.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📊</div>
+          <h3>Usage Data</h3>
+          <p>How you navigate the app — products viewed, searches made — to improve your feed.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ 02 — USE ══ -->
+    <div class="section" id="use">
+      <div class="section-header">
+        <span class="section-num-big">02</span>
+        <div class="section-heading">
+          <span class="section-tag">Usage</span>
+          <h2>How We Use Your Information</h2>
+        </div>
+      </div>
+      <p>Every piece of data has a clear, intentional purpose. We use information to serve you — never to exploit you.</p>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Service Delivery</h3>
+          <p>To provide, maintain, and continuously improve the core NextSap experience.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Personalization</h3>
+          <p>Showing you relevant products based on your location and browsing preferences.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔔</div>
+          <h3>Notifications</h3>
+          <p>Keeping you informed about new products and important updates from sellers.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Security & Fraud</h3>
+          <p>Detecting and preventing abuse, unauthorized access, and fraudulent activity.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ 03 — SHARING ══ -->
+    <div class="section" id="sharing">
+      <div class="section-header">
+        <span class="section-num-big">03</span>
+        <div class="section-heading">
+          <span class="section-tag">Sharing</span>
+          <h2>Data Sharing</h2>
+        </div>
+      </div>
+      <p>We do <strong style="color:#4A9EFF; font-weight:500;">not</strong> sell your personal information. We only share data in limited, clearly defined situations:</p>
+      <div class="highlight">
+        <div class="highlight-item">
+          <span class="highlight-label">Service Providers</span>
+          <p>Trusted partners for hosting and analytics, bound by strict confidentiality agreements and data processing contracts.</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-label">Product Sellers</span>
+          <p>Limited information is shared with sellers only when you directly interact with one of their listings on the platform.</p>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-label">Legal Compliance</span>
+          <p>We may disclose data when required by law, court order, or to protect the safety and rights of our users.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ 04 — SECURITY ══ -->
+    <div class="section" id="security">
+      <div class="section-header">
+        <span class="section-num-big">04</span>
+        <div class="section-heading">
+          <span class="section-tag">Security</span>
+          <h2>Data Security</h2>
+        </div>
+      </div>
+      <p>We treat your data with the same care we'd want for our own. All traffic between your device and our servers is encrypted end-to-end. Our infrastructure is continuously audited.</p>
+      <div class="security-row">
+        <div class="sec-badge"><span class="sec-badge-dot"></span> HTTPS / TLS 1.3</div>
+        <div class="sec-badge"><span class="sec-badge-dot"></span> AES-256 at rest</div>
+        <div class="sec-badge"><span class="sec-badge-dot"></span> Regular audits</div>
+        <div class="sec-badge"><span class="sec-badge-dot"></span> Zero trust access</div>
+      </div>
+    </div>
+
+    <!-- ══ 05 — RIGHTS ══ -->
+    <div class="section" id="rights">
+      <div class="section-header">
+        <span class="section-num-big">05</span>
+        <div class="section-heading">
+          <span class="section-tag">Your Rights</span>
+          <h2>You Are in Control</h2>
+        </div>
+      </div>
+      <p>These are not optional features — they are your fundamental rights as a user.</p>
+      <ul class="rights-list">
+        <li class="rights-item">
+          <div class="rights-check">
+            <svg viewBox="0 0 14 14" fill="none"><path d="M2.5 7L5.5 10L11.5 4" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          Access all personal data we hold about you, at any time
+        </li>
+        <li class="rights-item">
+          <div class="rights-check">
+            <svg viewBox="0 0 14 14" fill="none"><path d="M2.5 7L5.5 10L11.5 4" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          Request correction of any inaccurate or outdated information
+        </li>
+        <li class="rights-item">
+          <div class="rights-check">
+            <svg viewBox="0 0 14 14" fill="none"><path d="M2.5 7L5.5 10L11.5 4" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          Request complete and permanent deletion of your account and all data
+        </li>
+        <li class="rights-item">
+          <div class="rights-check">
+            <svg viewBox="0 0 14 14" fill="none"><path d="M2.5 7L5.5 10L11.5 4" stroke="#4A9EFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          Opt out of all marketing communications instantly, no questions asked
+        </li>
+      </ul>
+    </div>
+
+    <!-- ══ 06 — CHILDREN ══ -->
+    <div class="section" id="children">
+      <div class="section-header">
+        <span class="section-num-big">06</span>
+        <div class="section-heading">
+          <span class="section-tag">Children</span>
+          <h2>Children's Privacy</h2>
+        </div>
+      </div>
+      <p>NextSap is designed for users 13 years of age and older. We do not knowingly collect or solicit personal data from anyone under 13. If we discover such data has been collected, it is deleted immediately and without exception.</p>
+    </div>
+
+    <!-- ══ 07 — CHANGES ══ -->
+    <div class="section" id="changes">
+      <div class="section-header">
+        <span class="section-num-big">07</span>
+        <div class="section-heading">
+          <span class="section-tag">Updates</span>
+          <h2>Policy Changes</h2>
+        </div>
+      </div>
+      <p>Our privacy policy evolves alongside our product. When we make changes, we update the date at the top of this page. For significant changes, we'll notify you directly through the app — no surprises.</p>
+    </div>
+
+    <!-- ══ 08 — CONTACT ══ -->
+    <div class="section" id="contact" style="border-bottom:none; padding-bottom:0;">
+      <div class="contact-wrap">
+        <div class="contact-glow"></div>
+        <span class="section-tag" style="display:block; margin-bottom:12px;">08 — Contact</span>
+        <h2>Any Questions?</h2>
+        <p>We're a real team who reads every message. Reach out and we'll reply within 48 hours.</p>
+        <span class="email-display">support@nextsap.com</span>
+        <a href="mailto:support@nextsap.com" class="contact-btn">
+          Send us a message
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 8H13M9.5 4.5L13 8L9.5 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+      <div class="footer-left">
+        <p>© 2026 NextSap. All rights reserved.</p>
+      </div>
+      <div class="footer-live">
+        <span class="footer-live-dot"></span>
+        Policy active
+      </div>
+    </footer>
+
+  </div><!-- /wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>
